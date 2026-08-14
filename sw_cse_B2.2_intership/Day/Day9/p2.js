@@ -52,7 +52,8 @@ console.log("Adding/removing");
 const colors=["red","green","blue","yellow"];
 colors.splice(2,1);
 console.log(colors);
-colors.splice(1,0,"orange","purple");
+colors.splice(1,1,"orange","purple");
+console.log(colors)
 
 console.log("slice() and spread (...)");
 const nums1=[10,20,30,40,50];
