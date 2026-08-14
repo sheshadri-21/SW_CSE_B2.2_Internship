@@ -20,8 +20,8 @@ let s = square(6); // 36
 console.log(s);
 
 // Function expression
-const greeting = function(name) {
-  return "Hello, " + name;
+var greeting = function(name) {
+  return "Hello," + name;
 };
 console.log(greeting("Usha"));
 
